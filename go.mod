@@ -1,3 +1,3 @@
-module github.com/RVodassa/mymath
+module github.com/RVodassa/mypackage
 
 go 1.19
