@@ -10,8 +10,8 @@ func Abs(x float64) float64 {
 	return math.Abs(x)
 }
 
-func Yn(x float64) float64 {
-	return math.Pow(x, -1)
+func Yn(a int, b float64) float64 {
+	return float64(math.Pow(float64(a), b))
 }
 
 func Ceil(x float64) float64 {
