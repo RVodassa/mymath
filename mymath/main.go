@@ -6,6 +6,14 @@ func Sqrt(x float64) float64 {
 	return math.Sqrt(x)
 }
 
+func Abs(x float64) float64 {
+	return math.Abs(x)
+}
+
+func Yn(x float64) float64 {
+	return math.Pow(x, -1)
+}
+
 func Ceil(x float64) float64 {
 	return math.Ceil(x)
 }
